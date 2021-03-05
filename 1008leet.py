@@ -4,6 +4,10 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+#time complexity O(nlogn)
+#space complexity O(n)
+
 class Solution(object):
     def bstFromPreorder(self, preorder):
     	if not preorder:
